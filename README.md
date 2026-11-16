@@ -1,4 +1,4 @@
-# ZWARK Connect V3 — Automatic shift simulation via mill API
+# ZWARK Connect — Automatic shift simulation via mill API
 
 ## Start
 
@@ -27,4 +27,3 @@ python -m streamlit run app.py
 
 The simulation starts with today's Morning shift and advances to Evening, Night, then the next day's Morning shift. Each shift uses deterministic illustrative quantities. Do not use for real inventory or production accounting.
 
-**Important:** If you have V2 running, stop BOTH terminals and start them again from the V3 folder. V3 uses its own fresh databases. If the mill has not confirmed enough yarn receipt, the generated shift remains in the mill database and cannot be imported until there is sufficient receipt. There is no actual ERP or sensor integration.
